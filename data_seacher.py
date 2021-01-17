@@ -1,5 +1,4 @@
 from pymagnitude import *
-import sqlite3
 import fetch
 from fetch import db, Article
 from tfidf import DFTable
