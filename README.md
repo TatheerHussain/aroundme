@@ -4,7 +4,7 @@
 > Due to privacy and policy of the travel website, the data canot be shared without permission so you can fetch your own
 > The sample code is given below (Under Extracting data source)
 
-![Screenshot](images/easysearch.png)
+![Screenshot](images/banner.png)
 
 
 ## Development setup
