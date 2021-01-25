@@ -9,8 +9,8 @@ class DFTable:
         self.doc_count = 0
         if filepath:
             self.filepath = filepath
-            self._load()
-
+            self._load()    # for numpy greater than 1.16 this rasies error so use numpy verison <= 1.16.6
+ 
     def _hash(self, word):
         return fnv.hash(str.encode(word)) % self.length
 
