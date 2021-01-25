@@ -1,12 +1,12 @@
 # easySearch line bot
 > This is simple line api based bot using QANet-SQUAD-1.
-> The data source for this line api is based on a travel website, you can fetch your own, the sample code is given,
+> The base for chatbot replying are the articles fetched from a travel website.
+> Due to privacy and policy of the travel website, the data canot be shared without permission so you can fetch your own, > The sample code is given below (Under Extracting data source)
 
 [![npm][namee here ]][url here]
 
-One to two paragraph statement about your product and what it does.
 
-![](header.png)
+![easysearch](header.png)
 
 ## Installation
 
@@ -29,9 +29,7 @@ A few motivating and useful examples of how your product can be used.
 ## Development setup
 
 Install all development dependencies, check by using 
-'''sh
-pip freeze > requirements.txt
-'''
+> pip freeze > requirements.txt
 ## Other requirements 
 >  Download pre-trained wiki-news-300d-1M-subword.magnitude (remeber to use pymagnitude format) 
 >  
@@ -40,14 +38,20 @@ pip freeze > requirements.txt
 * 1.0.0
     * CHANGE: Updated basic implementation (module code remains unchanged)
 
-## I havent included the code for extracting data source 
+## Extracting data source 
 * for this you can use this image screenshot as the reference
 ![Screenshot](images/fetch.jpg)
+
+## Article search 
+* In order to make good use of data, I did a word-vector to article-vector conversion.
+* This is done by TF-IDF weighted mean for all words in an article. (Except stopword, I
+* use the stopwords list from nltk)
+![Screenshot](images/article search.jpg)
 
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/tatheerhussain) 
+Your Name – [@tatheerhussain](https://twitter.com/tatheerhussain) 
 
 
 
