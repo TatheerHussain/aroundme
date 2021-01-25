@@ -7,7 +7,7 @@ import random
 #passage = input('passage:')
 def qanet(question, passage):
         payload = {"question": question, "passage": passage}
-        r = requests.post("http://localhost:5000/answer", data= json.dumps( payload ) , headers = {'content-type': 'application/json'} )
+        r = requests.post("http://140.115.54.90:8080/answer", data= json.dumps( payload ) , headers = {'content-type': 'application/json'} )
         answer = json.loads(r.text)['answer']
         return answer
 
