@@ -14,7 +14,7 @@ def qanet(question, passage):
 def main():
         try:
                 finder = Seacher()
-                question = 'where is Guizikeng Hiking Trail' #'What is the address of Zhinan Temple?'
+                question = 'where is Guizikeng Hiking Trail' # an instance of question here 
                 print(question)
                 annoy_list = finder.searchArticle(question)
                 article = random.choice(annoy_list)
