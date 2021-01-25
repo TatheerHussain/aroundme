@@ -29,30 +29,42 @@ A few motivating and useful examples of how your product can be used.
 ## Development setup
 
 Install all development dependencies, check by using 
-> pip freeze > requirements.txt
+> SQLite Database (with Peewee Model Support)
+> FastText pre-trained word embedded model in pymagnitude format
+> k-nn search (powered by Annoy python module)
+> Line Bot API
+> RESTful linked protocol
+> data from a travel web source
+> use  "pip freeze > requirements.txt" to save and intall the required dependencies
+
+
 ## Other requirements 
 >  Download pre-trained wiki-news-300d-1M-subword.magnitude (remeber to use pymagnitude format) 
->  
+>  Use Annoy toolkit for fast Nearest Neighbor search on vector space 
+>  The search will get the article with content close to the question from the user. This may not be the answer to the question. Therefore, use QANet to process this article.
+> QANet model would do tokenization and predict the response span by context/question embedding
+> LXML (Python Module)
+> XPATH Method
+
+## Line messeging api 
+> create a line messeging bot based on line messageing api for tbat you can refer to this article 
+> This will help you to go build your own line bot from begining to end 
+> [Build a line bot]: https://ithelp.ithome.com.tw/articles/10235146
+
 ## Release History
 
 * 1.0.0
     * CHANGE: Updated basic implementation (module code remains unchanged)
 
 ## Extracting data source 
-* for this you can use this image screenshot as the reference
+* To extract the data use this screenshot as the reference of the code that i havent included in the github
 ![Screenshot](images/fetch.jpg)
 
 ## Article search 
 * In order to make good use of data, I did a word-vector to article-vector conversion.
 * This is done by TF-IDF weighted mean for all words in an article. (Except stopword, I
 * use the stopwords list from nltk)
-![Screenshot](images/article search.jpg)
-
-
-## Meta
-
-Your Name – [@tatheerhussain](https://twitter.com/tatheerhussain) 
-
+![Screenshot](images/articlesearch.jpg)
 
 
 ## Contributing
@@ -66,6 +78,8 @@ Your Name – [@tatheerhussain](https://twitter.com/tatheerhussain)
 
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+
 [npm-url]: https://npmjs.org/package/datadog-metrics
 
+
+Your Name – [@tatheerhussain](https://twitter.com/tatheerhussain) 
