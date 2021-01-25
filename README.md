@@ -3,29 +3,6 @@
 > The base for chatbot replying are the articles fetched from a travel website.
 > Due to privacy and policy of the travel website, the data canot be shared without permission so you can fetch your own, > The sample code is given below (Under Extracting data source)
 
-[![npm][namee here ]][url here]
-
-
-![easysearch](header.png)
-
-## Installation
-
-OS X & Linux:
-
-```sh
-
-```
-
-Windows:
-
-```sh
-
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. 
-
 ## Development setup
 
 Install all development dependencies, check by using 
@@ -77,9 +54,5 @@ Install all development dependencies, check by using
 
 
 
-<!-- Markdown link & img dfn's -->
 
-[npm-url]: https://npmjs.org/package/datadog-metrics
-
-
-Your Name – [@tatheerhussain](https://twitter.com/tatheerhussain) 
+Tatheer Hussain Mir – [@tatheerhussain](https://twitter.com/tatheerhussain) 
