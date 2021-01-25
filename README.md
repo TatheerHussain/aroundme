@@ -4,12 +4,20 @@
 > Due to privacy and policy of the travel website, the data canot be shared without permission so you can fetch your own
 > The sample code is given below (Under Extracting data source)
 
+# What will this bot do 
+* Present a user with one result based on his nearest location 
+* and the reply will be the "best reviewed one" 
+* and best recommended one 
+
+
 ![Screenshot](images/banner.png)
 
 
 ## Development setup
 
-Install all development dependencies, check by using 
+* Install all development dependencies 
+* QANET-SQUAD-1
+* Data set (from a travel website)
 * SQLite Database (with Peewee Model Support)
 * FastText pre-trained word embedded model in pymagnitude format
 * k-nn search (powered by Annoy python module)
