@@ -29,7 +29,7 @@ class Seacher:
             self.dftable = DFTable(df_path)
         self.dftable = DFTable(df_path)
         if not os.path.isfile(annoy_path):
-            logging.info("first use, building annoy index")
+            logging.info("for the first use, build annoy index")
             self._build_annoy()
             self.annoy.save(annoy_path)
             self.annoy = AnnoyIndex(300)
