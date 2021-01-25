@@ -9,7 +9,7 @@
 * and the reply will be the "best reviewed one" 
 * and best recommended one 
 
-## what is the proposed final product look like , this one is not the original screenshot
+#### How does the proposed final result demo will be like , this one is not the original screenshot
 ![Screenshot](images/banner.png)
 
 
