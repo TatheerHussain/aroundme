@@ -20,6 +20,7 @@
 * Data set (from a travel website)
 * SQLite Database (with Peewee Model Support)
 * FastText pre-trained word embedded model in pymagnitude format
+* TF-IDF & DF-Table
 * k-nn search (powered by Annoy python module)
 * Line Bot API
 * RESTful linked protocol (if your Qanet and line bot or on different servers..)
@@ -35,7 +36,7 @@
 
 ## Line messeging api 
 * create a line messeging bot based on line messageing api for tbat you can refer to this article 
-* [Build a line bot]: https://ithelp.ithome.com.tw/articles/10235146
+* [Build a line bot]: https://ithelp.ithome.com.tw/articles/10235146 
 
 ## Release History
 
